@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap);
+.type{
+    font-family: Montserrat;
+    color:hsl(228, 12%, 48%);
+    letter-spacing: 3px;
+}
+.p1{
+    font-family:Montserrat;
+    color:hsl(228, 12%, 48%);
+    font-weight: 700px;
+}
+.picture{
+    display:flex;
+    flex-direction:column;
+    border-radius:6px;
+    width:350px;
+    height:520px;
+    float:left;
+    border:10px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.page{
+    display:flex;
+    flex-direction:column;
+    background-color:hsl(30, 38%, 92%);
+}
+.name{
+    background-color: hsl(0, 0%, 100%);
+    border-radius:6px;
+    width:350px;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    float:left;
+    padding:10px;
+    padding-left: 25px;
+    padding-right: 10px;
+    text-align:justify;
+    border:10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.wrapper{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-top:125px;
+}
+.cart{
+    background-color:hsl(158, 36%, 37%);
+    border-radius:8px;
+    width:300px;
+    margin-top:-15px;
+}
+.button{
+    color:hsl(0, 0%, 100%);
+    font-family: Montserrat;
+    text-align: center;
+    font-weight:700px;
+}
+.price{
+    display:flex;
+    gap:8px;
+    align-items:center;
+}
+.price> p:nth-of-type(1){
+    color:hsl(158, 36%, 37%);
+    font-size: 35px;
+    font-family:Fraunces;
+    font-weight: 700;
+}
+.price> p:nth-of-type(2){
+    color:hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-family:Montserrat;
+    font-weight:500;
+}
+svg.c{
+    vertical-align:baseline;
+    text-align: center;
+}
+.brand{
+    font-weight: 700px;
+}
